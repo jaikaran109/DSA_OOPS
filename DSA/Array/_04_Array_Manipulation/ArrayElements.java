@@ -1,4 +1,4 @@
-package Medium;
+package DSA.Array._04_Array_Manipulation;
 
 public class ArrayElements {
 

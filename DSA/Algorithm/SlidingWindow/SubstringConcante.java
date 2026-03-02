@@ -1,4 +1,4 @@
-package Hard;
+package DSA.Algorithm.SlidingWindow;
 
 import java.util.ArrayList;
 import java.util.List;

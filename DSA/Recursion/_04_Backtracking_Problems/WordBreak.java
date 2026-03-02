@@ -1,4 +1,4 @@
-package Hard;
+package DSA.Recursion._04_Backtracking_Problems;
 import  java.util.*;
 /*
 Given a string s and a dictionary of strings wordDict, add spaces in s to construct a sentence where each word is a valid dictionary word. Return all such possible sentences in any order.

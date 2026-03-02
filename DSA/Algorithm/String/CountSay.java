@@ -1,4 +1,4 @@
-package Medium;
+package DSA.Algorithm.String;
 
 public class CountSay {
 

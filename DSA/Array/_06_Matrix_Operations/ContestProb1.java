@@ -1,4 +1,4 @@
-package Medium;
+package DSA.Array._06_Matrix_Operations;
 
 import java.util.ArrayList;
 import java.util.List;

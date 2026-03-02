@@ -1,4 +1,4 @@
-package Hard;
+package DSA.Stack._04_Advanced_Problems;
 import java.util.*;
 /*
 Example 1:
@@ -62,17 +62,6 @@ public class NoOfAtom {
                 stack.peek().put(element.toString(), stack.peek().getOrDefault(element.toString(), 0) + count);
             }
         }
-
-        // TreeMap<String, Integer> sortedMap = new TreeMap<>(stack.peek());   // default sorted
-        // StringBuilder result = new StringBuilder();     // treeMap more timecomplex.
-        // for (String key : sortedMap.keySet()) {
-        //     result.append(key);
-        //     int count = sortedMap.get(key);
-        //     if (count > 1) {
-        //         result.append(count);
-        //     }
-        // }
-        // return result.toString();
 
         Map<String, Integer> result = stack.pop();
         List<String> elements = new ArrayList<>(result.keySet());
